@@ -56,7 +56,7 @@ section#cards {
 }
 
 section#cards div.card:hover {
-  background-color: #dc0a2d15;
+  background-color: #0481bb15;
   position: relative;
   top: -2px;
   box-shadow: 0 2px 2px #666;
@@ -168,14 +168,14 @@ section#cadastro form button {
   justify-content: center;
   font-size: 0.8rem;
   color: aliceblue;
-  border: solid 1px red;
-  color: red;
+  border: solid 1px #59bae8;
+  color: #59bae8;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 
 section#cadastro form button:hover {
-  background-color: red;
+  background-color: #59bae8;
   color: aliceblue;
 }
 
@@ -231,7 +231,7 @@ footer p a {
 .modal-header {
   display: flex;
   justify-content: space-between;
-  background-color: #dc0a2d;
+  background-color: #59bae8;
   padding: 1rem;
   color: #fff;
 }
@@ -319,12 +319,12 @@ div#btns-del a#no:hover{
 }
 
 div#btns-del a#yes{
-    color: #40af00;
-    border: solid 1px #40af00;
+    color: #2bafed;
+    border: solid 1px #2bafed;
     transition: all .3s ease-in-out;
 }
 
 div#btns-del a#yes:hover{
     color: aliceblue;
-    background-color: #40af00;
+    background-color: #2bafed;
 }
