@@ -24,8 +24,8 @@
                 
                     <img src="<%= pokemon.imagem %>" >
                     <h3><%= pokemon.nome %></h3>
+                    <p>Autor: <%= pokemon.tipo %></p>
                     <p class="descricao"><%= pokemon.descricao %></p>
-                    <p>Tipo: <%= pokemon.tipo %></p>
                     <a id="editar" href="/getById/<%= pokemon.id %>/put">Editar</a>
                     <a id="apagar" href="/getById/<%= pokemon.id %>/delete">Apagar</a>
         
