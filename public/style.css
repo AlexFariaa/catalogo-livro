@@ -143,6 +143,10 @@ section#cadastro form {
   width: 100%;
 }
 
+section#cadastro img{
+  padding-right: 3rem;
+}
+
 section#cadastro form input {
   width: 100%;
   padding: 0.5rem;
